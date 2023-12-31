@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@page/*": ["./src/products/page/*"],
+      "@model/*": ["./src/products/model/*"],
+      "@component/*": ["./src/products/component/*"],
+      "@icon/*": ["./src/products/icon/*"],
+      "@repository/*": ["./src/products/repository/*"],
+      "@redux/*": ["./src/products/redux/*"],
+      "@products/*": ["./src/products/*"],
+      "@tests/*": ["./src/tests/*"],
+      "@/*": ["./src/*"]
+    },
+  }
+}
